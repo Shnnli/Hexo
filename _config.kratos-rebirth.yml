@@ -2,11 +2,11 @@
 site_analytics: ''
 hoster: <a href="https://github.io" target="_blank">Github Pages</a>
 site_logo: ''
-snow: true
-click_animate_js: true
+snow: false
+click_animate_js: 'candy'
 enable_dark: true
 highlight_theme: night-eighties # 代码高亮主题（light | night | night-eighties | night-blue | night-bright）
-check_update: false
+check_update: true
 
 vendors:
   packages:
@@ -81,14 +81,14 @@ group_link:
 contact:
   weibo: 
   mail: 
-  telegram:
+  telegram: CandyUnion
   twitter: 
   facebook: 
   linkedin: 
   fediverse:
-    instance: 
-    username: Shnnli
-  github: Shnnli
+    instance: nya.one
+    username: Candinya
+  github: Candinya
   rss:
 timenotice: 本站已运行
 icp: 
@@ -100,7 +100,7 @@ posts:
   donate: false
   share: true
   comments: 
-    provider: false
+    provider: ''
     enableBGImage: false
 
 # Disqus [Disqus](https://disqus.com) 评论相关
@@ -203,7 +203,7 @@ jsconfig:
       randomAmount: 20 # 表示从1~20
       baseUrl: null # 使用默认值（不单独配置），将跟随 vendors 中的相关设定选择是否使用 cdn
       filenameTemplate: "thumb_{no}.webp" 
-    createTime: "2022/5/20 00:00:00"
+    createTime: "2022/05/20 17:03:12"
     donateBtn: "支持我~"
     scanNotice: "扫一扫，好不好？"
     qr_alipay: "/images/alipayqr.webp"
